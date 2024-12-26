@@ -1,0 +1,67 @@
+<!--                         Aula 03 - Atividade 01
+    
+    Atividade: Criação de Estrutura de Página com Tags Semânticas
+
+    Enunciado: Crie uma página HTML simples que simule a estrutura básica de um site de notícias. Utilize as tags semânticas para organizar o conteúdo.
+
+    Instruções:
+    1 - Cabeçalho(<header>): Crie um cabeçalho que contenha o nome do site (pode ser um título <h1>).
+    2 - Navegação (<nav>): Adicione uma barra de navegação simples dentro do cabeçalho, com links para diferentes seções do site (exemplo: Home, Notícias, Contato).
+
+    3 - Conteúdo Principal (<main>): Dentro da tag <main>, organize o conteúdo principal da página.
+        A - Seção de Destaque (<section>): Crie uma seção destacada com um artigo principal.
+        B - Artigos (<article>): Dentro da seção, adicione um artigo com título, subtítulo e texto.
+    4 - Barra Lateral (<aside>): Adicione uma barra lateral que contenha links para outros artigos ou anúncios.
+    5 - Rodapé (<footer>): Crie um rodapé para a página com informações de contato ou direitos autorais.    
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+</head>
+<body>
+            <header> <!-- Cabeçalho -->
+                <nav> <!-- Menu -->
+                    <h1>Mundo das notícias</h1>
+                        <ul>
+                            <li><a href="#Esportes" title="Ir para página de esportes">Esportes</a></li>
+                            <li><a href="#Fofocas" title="Ir para página de fofocas">Fofocas</a></li>
+                            <li><a href="#Entretenimento" title="Ir para página de entretenimento">Entretenimento</a></li>
+                            <li><a href="#Games" title="Ir para página de Games">Games</a></li>
+                        </ul>
+
+                </nav>
+            </header>
+            <main> <!-- Conteúdo principal -->
+                <section>
+                        <h2>Fique por dentro de tudo!</h2>
+                        <p>Seja bem vindo a maior página de notícias do mundo! Fique por dentro de todas as notícias que acontecem no mundo. Aqui você vai encontrar notícias de última hora, dos mais variados tipos. <br>
+                        Acesse nosso site todos os dias e seja o primeiro a saber de tudo que acontece no mundo.</p>
+                </section>
+                <article>
+                    <h2>Aconteceu agora!</h2>
+                    <h3>De novo?</h3>
+                    <p>Time perde mais um campeonato mundial de futebol, <br> ficando em último lugar na seleção, pela terceira vez seguida. Clique <a href="#Aqui">Aqui</a> para saber dos detalhes.</p>
+                </article>
+                <article>
+                    <h2>Vai um jogo saindo do forno?</h2>
+                    <p>Saiu mais um jogo do God Of War! E dessa vez vai ser na mitologia egípcia. Clique <a href="#Aqui">Aqui</a> para saber mais!</p>
+                </article>
+                <article>
+                    <h2>O anime mais esperado da última década!</h2>
+                    <p>Depois de muito tempo de espera, Kimetsu no Yaba irá finalmente lançar nos cinemas em breve. Para saber dos detalhes, clique <a href="#Aqui">Aqui</a> e saiba mais.</p>
+                </article>
+            </main>
+            <aside>
+                <h3>Receba todas as notícias!</h3>
+                <p>Cadastre seu e-mail para receber notificação sempre que houver uma notícia nova e seja o primeiro por dentro de tudo que acontece no mundo. <br> Clique <a href="#Aqui">Aqui</a></p>
+            </aside>
+            <footer> 
+                <p>Contatos: mundodasnotícias@gmail.com</p>
+                <p>&copy; 2024 Mundo das notícias</p>
+            </footer>
+</body>
+</html>

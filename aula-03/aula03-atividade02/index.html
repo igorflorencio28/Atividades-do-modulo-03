@@ -1,0 +1,39 @@
+<!-- Aula 03 - Atividade 02
+    
+    Atividade: Estrutura de Blocos e Elementos Inline
+
+    Enunciado: Crie uma página HTML simples que simlue um cartão de informações de perfil. Utilize a tag <div> para separar as seções do cartão
+    e a tag <span> para destacar elementos inline, como o nome e a idade.
+
+        Instruções: 
+        1 - Crie uma estrutura de cartão de perfil utilizando <div> para delimitar as seções do cartão, como a imagem de perfil, o nome e a descrição.
+        2 - Dentro de uma <div>, insira um parágrafo (<p>) com um texto que contenha o nome e a idade da pessoa. Utilize a tag <span> para destacar o nome e a idade no meio do parágrafo.
+        3 - Adicione uma imagem (<img>) dentro de outra <div> para representar a foto do perfil.
+        4 - No final, o cartão deve ter a seguinte estrutura:
+            A - Uma seção para imagem.
+            B - Uma seção para o nome e a idade, onde o nome e a idade estão destacados usando <span>.
+            C - Uma seção para uma breve descrição. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body> 
+    <div class="imagem"> <!-- Imagem de perfil -->
+        <img src="imagens/falso-pastor.png" alt="Igor" class="foto">
+    </div>
+    <div> <!-- Nome -->
+        <h1>Igor de Oliveira Florêncio</h1>
+    </div>
+    <div> <!-- Nome e Idade -->
+        <p><span>Igor Florêncio, </span><span> 28 anos</span></p>
+    </div>
+    <div> <!-- Descrição -->
+        <p>Setor de TI - Programador Sênior. </p>
+    </div>
+</body>
+</html>
